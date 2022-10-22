@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "formulahendry.auto-complete-tag",
+    "streetsidesoftware.code-spell-checker",
+    "vivaxy.vscode-conventional-commits",
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint",
+    "github.vscode-pull-request-github",
+    "eamodio.gitlens",
+    "vue.volar",
+    "Vue.vscode-typescript-vue-plugin"
+  ]
+}
