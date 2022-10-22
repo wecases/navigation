@@ -1,8 +1,9 @@
 <script lang="ts" setup>
-const indexStore = useIndexStore();
-await indexStore.getWallpaperType();
-await indexStore.getWallpaper();
+const indexStore = useIndexStore()
+await indexStore.getWallpaperType()
+await indexStore.getWallpaper()
 </script>
+
 <template>
   <div>
     <div>
@@ -11,8 +12,8 @@ await indexStore.getWallpaper();
       </span>
     </div>
     <div>
-      <template v-for="(item, index) in indexStore.list">
-        <img :src="item.url_thumb" width="80" />
+      <template v-for="(item, index) in indexStore.list" :key="index">
+        <img :src="item.url_thumb" width="80">
       </template>
     </div>
   </div>

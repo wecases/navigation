@@ -4,7 +4,7 @@
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 
 const pinia = ({ $pinia }) => {
-    $pinia.use(piniaPluginPersistedstate)
+  $pinia.use(piniaPluginPersistedstate)
 }
 
 export default pinia
