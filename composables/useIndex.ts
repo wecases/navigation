@@ -90,7 +90,9 @@ export const useIndexStore = definePiniaStore({
     },
 
     wallpaperImg(): string {
-      return `url(${this.list[Math.floor(Math.random() * this.list.length)].img_1024_768})`
+      let url = this.list[Math.floor(Math.random() * this.list.length)].img_1024_768
+      url = url.replace(/^http:\/\//i, 'https://')
+      return `url(${url})`
     },
 
     searchWebisteListHeight() {
