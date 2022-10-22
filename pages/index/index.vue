@@ -202,7 +202,7 @@ onMounted(() => {
               @click="websiteJump(tools.search)"
             >
               <div class="img flex f-y-c">
-                <!-- <img :src="tools.icon``" alt=""> -->
+                <img :src="tools.icon" alt="">
               </div>
               <div class="text ellipsis">
                 {{ tools.name }}
