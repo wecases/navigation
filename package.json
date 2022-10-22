@@ -10,12 +10,12 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.4.3",
-    "pinia-plugin-persistedstate": "^2.3.0"
+    "@pinia/nuxt": "0.4.3",
+    "pinia-plugin-persistedstate": "2.3.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.27.0",
-    "eslint": "^8.26.0",
+    "@antfu/eslint-config": "0.27.0",
+    "eslint": "8.26.0",
     "nuxt": "3.0.0-rc.12"
   }
 }
