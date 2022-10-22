@@ -17,6 +17,24 @@ npm install
 pnpm install --shamefully-hoist
 ```
 
+### 设置
+
+``` json
+// .vscode/settings.json
+{
+  "eslint.validate": [
+    "javascript",
+    "vue",
+    "typescript"
+  ],
+  "eslint.lintTask.enable": true,
+  "editor.formatOnSave": true, // or false
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
+```
+
 ## Development Server
 
 Start the development server on http://localhost:3000
