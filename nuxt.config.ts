@@ -8,8 +8,11 @@ export default defineNuxtConfig({
         ['defineStore', 'definePiniaStore'],
       ],
     }],
+    '@unocss/nuxt',
   ],
-  typescript: {
-    shim: false,
+  unocss: {
+    uno: true,
+    icons: true,
+    attributify: true,
   },
 })
