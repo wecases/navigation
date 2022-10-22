@@ -63,5 +63,5 @@ export const useSetStore = definePiniaStore({
    *
    * @see https://github.com/prazdevs/pinia-plugin-persistedstate
    */
-  persist: false,
+  persist: true,
 })
