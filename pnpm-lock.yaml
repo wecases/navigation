@@ -4,7 +4,7 @@ specifiers:
   '@antfu/eslint-config': 0.27.0
   '@pinia/nuxt': 0.4.3
   '@unocss/nuxt': 0.45.30
-  '@unocss/preset-attributify': 0.45.30
+  '@unocss/preset-attributify': 0.55.2
   '@unocss/preset-icons': 0.45.30
   '@unocss/preset-uno': 0.45.30
   eslint: 8.26.0
@@ -21,7 +21,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.27.0_wyqvi574yv7oiwfeinomdzmc3m
   '@unocss/nuxt': 0.45.30
-  '@unocss/preset-attributify': 0.45.30
+  '@unocss/preset-attributify': 0.55.2
   '@unocss/preset-icons': 0.45.30
   '@unocss/preset-uno': 0.45.30
   eslint: 8.26.0
@@ -1078,6 +1078,10 @@ packages:
     resolution: {integrity: sha512-KjEdE8F5AZ+rJ4M07CttZd79h8FMqiCy6ldNS8xyd3qX8wy+BrE9n5tSV8KmbuORkNBWYG5yrkQvo7RQmASDzA==}
     dev: true
 
+  /@unocss/core/0.55.2:
+    resolution: {integrity: sha512-ZLEES8RDgWoK/vttUzl3PM2bZqL3HvhLgj8xdDa09Xw+JiTlR4c66s+hLn52oCoJTnT9lGsD2j7tTGN9ToSiTA==}
+    dev: true
+
   /@unocss/inspector/0.45.30:
     resolution: {integrity: sha512-kcI+jN2h6xRBzQUdc3HfOCAbvi0gFVjPONJBDU+NeDnDXAp/TshK/Z3K/2JzWqSR9HWcYA/Bswk8bMRBa7lkmQ==}
     dependencies:
@@ -1112,6 +1116,12 @@ packages:
     resolution: {integrity: sha512-ISRBrdWLUJ1T+1QaQj9E9aybhY0VgteA4T1ezJNIDGK86o1K+9pAoejpINYTeXI+f6nbqVVKv7qh2z7vRxaMzw==}
     dependencies:
       '@unocss/core': 0.45.30
+    dev: true
+
+  /@unocss/preset-attributify/0.55.2:
+    resolution: {integrity: sha512-jn5ulsKpAipsX3Gf2/iSZydgI0eP1ENeoS6rrNBL8zl1mRihnZYFegS75rGYjO6sEfEHrhkBiSHOw7Uv5KtLbw==}
+    dependencies:
+      '@unocss/core': 0.55.2
     dev: true
 
   /@unocss/preset-icons/0.45.30:
