@@ -10,7 +10,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@pinia/nuxt": "0.4.3",
+    "@pinia/nuxt": "0.5.1",
     "pinia-plugin-persistedstate": "2.3.0"
   },
   "devDependencies": {
