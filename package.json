@@ -14,7 +14,7 @@
     "pinia-plugin-persistedstate": "2.3.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.27.0",
+    "@antfu/eslint-config": "0.43.1",
     "@unocss/nuxt": "0.45.30",
     "@unocss/preset-attributify": "0.45.30",
     "@unocss/preset-icons": "0.45.30",
